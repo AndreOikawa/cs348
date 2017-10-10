@@ -71,13 +71,16 @@ create table class ( \
 
 insert into class values ('CS448', 'S2006', 1, 1)
 insert into class values ('CS448', 'S2006', 2, 2)
+
 insert into class values ('CS240', 'S2006', 1, 3)
 insert into class values ('CS240', 'S2006', 2, 4)
+insert into class values ('CS240', 'S2006', 3, 7)
+
 insert into class values ('CS245', 'S2006', 1, 5)
 insert into class values ('CS245', 'S2006', 2, 6)
-insert into class values ('CS240', 'S2006', 1, 7)
-insert into class values ('CS245', 'S2006', 2, 8)
-
+insert into class values ('CS245', 'S2006', 3, 8)
+insert into class values ('CS240', 'S2006', 4, 3)
+insert into class values ('CS240', 'S2006', 5, 3)
 
 drop table enrollment
 create table enrollment ( \
